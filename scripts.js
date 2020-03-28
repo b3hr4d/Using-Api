@@ -10,7 +10,7 @@ app.appendChild(logo)
 app.appendChild(container)
 
 var request = new XMLHttpRequest()
-request.open('GET', 'http://voiceless.ir/wp-json/wp/v2/pages', true)
+request.open('GET', 'https://voiceless.ir/wp-json/wp/v2/pages', true)
 request.onload = function() {
   // Begin accessing JSON data here
   var data = JSON.parse(this.response)
